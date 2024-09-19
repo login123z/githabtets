@@ -1,0 +1,33 @@
+.visual{
+    width: 100%;
+    color: $purple;
+    
+    &__subtitle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0;
+        font-size: 32px;
+    }
+
+    &__title {
+        margin: 30px 50px;
+        font-size: 24px;
+    }
+
+
+    &__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    &--stroke{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px rgb(13, 36, 165);
+    width: 100%;
+    }
+}
+}
